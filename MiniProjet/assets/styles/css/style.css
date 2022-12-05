@@ -1,0 +1,10 @@
+body header {
+  background-image: linear-gradient(rgba(181, 112, 112, 0.6), rgba(112, 122, 181, 0.6)), url("https://creativelayers.net/themes/edumy-html/images/background/inner-pagebg.jpg");
+  color: white;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
