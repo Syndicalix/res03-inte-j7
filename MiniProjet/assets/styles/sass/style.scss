@@ -5,7 +5,7 @@ body {
         color: white;
         background-size : cover;
         height:400px;
-            background-image:linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+        background-image:linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
     url('https://creativelayers.net/themes/edumy-html/images/background/inner-pagebg.jpg');
     width: 100%;
     padding: 20px;
@@ -21,6 +21,7 @@ body {
     main {
         display:grid;
         grid-template-columns: 2fr 1fr;
+        align-items: center;
     }
 }
 
@@ -28,5 +29,41 @@ nav {
     ul {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    ext-decoration: none;
+    }
+}
+nav {
+    ul {
+        li {
+            list-style-type: none;
+            padding: 5px;
+            text-decoration: none;
+
+        }
+    }
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    float:none;
+}
+
+.flotte {
+    float:left;
+}
+
+h2 {
+    display: none;
+}
+
+body {
+    header {
+        p {
+            float: right;
+            padding: 5px;
+            align-items: reverse;
+        }
     }
 }

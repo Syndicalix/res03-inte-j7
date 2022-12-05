@@ -15,11 +15,40 @@ html {
 body main {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  align-items: center;
 }
 
 nav ul {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+  ext-decoration: none;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  float: none;
+}
+
+.flotte {
+  float: left;
+}
+
+h2 {
+  display: none;
+}
+
+body header p {
+  float: right;
+  padding: 5px;
+  align-items: reverse;
 }
 
 /*# sourceMappingURL=style.css.map */
