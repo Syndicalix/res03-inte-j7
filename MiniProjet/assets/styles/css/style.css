@@ -1,10 +1,25 @@
 body header {
   background-image: linear-gradient(rgba(181, 112, 112, 0.6), rgba(112, 122, 181, 0.6)), url("https://creativelayers.net/themes/edumy-html/images/background/inner-pagebg.jpg");
   color: white;
+  background-size: cover;
+  height: 400px;
+  background-image: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("https://creativelayers.net/themes/edumy-html/images/background/inner-pagebg.jpg");
+  width: 100%;
+  padding: 20px;
 }
 
 html {
   font-family: "Open Sans", sans-serif;
+}
+
+body main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
 }
 
 /*# sourceMappingURL=style.css.map */
